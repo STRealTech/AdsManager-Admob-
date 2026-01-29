@@ -21,9 +21,9 @@ public class AdsManager : Singleton<AdsManager>
     private BannerView bannerView;
 
     [Header("AdMob Ad Unit IDs")]
-     string rewardedAdUnitId = "ca-app-pub-7230095769442277/6080200211";
-     string interstitialAdUnitId = "ca-app-pub-7230095769442277/1627101262";
-     string bannerAdUnitId = "ca-app-pub-7230095769442277/7393281888";
+     string rewardedAdUnitId = "ca-app-pub-7230095769442277/6080200211";  // Add your Rewarded ID
+     string interstitialAdUnitId = "ca-app-pub-7230095769442277/1627101262";  // Add your interstitial AdUnitId
+     string bannerAdUnitId = "ca-app-pub-7230095769442277/7393281888";       //   Add your banner AdUnitId
 #endregion
 
     private void Awake()
@@ -502,3 +502,4 @@ public class AdsManager : Singleton<AdsManager>
 
     #endregion
 }
+
